@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="winder.Todo">
+
+	<insert id="insertTodo" parameterType="Todo">
+		insert into todo(tdno, content, state, tddate, pno) values
+		(todo_seq.nextval, #{content}, state, sysdate, #{pno})
+	</insert>
+
+	<delete id="deleteTodo" parameterType="java.lang.String">
+		delete todo where tdno=#{value}
+	</delete>
+
+	<update id="updateTodo" parameterType="Todo">
+		update todo set
+		content= #{content}, state=#{state} where pno=#{pno}
+	</update>
+	
+	<select id="selectTodo" parameterType="java.lang.String"	resultType="Todo">
+		select content,state,tddate,pno from todo where tdno =#{value}
+	</select>
+
+	<select id="selectAllTodo" resultType="Todo">
+		select * from todo
+	</select>
+	
+	<select id="listTodo" parameterType="int" resultType="Todo">
+		select * from todo where pno=#{pno}
+	</select>
+
+</mapper>

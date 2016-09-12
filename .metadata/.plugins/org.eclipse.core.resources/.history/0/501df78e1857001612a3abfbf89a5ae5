@@ -1,0 +1,23 @@
+package sku.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import sku.dao.GuestbookDAO;
+import sku.vo.GuestbookVO;
+
+@Controller
+public class guestController {
+
+	@RequestMapping("hello12312.sku")
+	public String guest(){
+		GuestbookDAO dao = new GuestbookDAO();
+		GuestbookVO vo = dao.getGuestbook("web");
+		
+		if(vo.getContent().equals("sadfasdfasdf"))
+			return "guest"; 
+		else
+			return "hello";
+					
+	}
+}

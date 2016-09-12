@@ -1,0 +1,5 @@
+package winder.dao;
+
+public class CommunityDAOImpl implements CommunityDAO{
+
+}

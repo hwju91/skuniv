@@ -1,0 +1,27 @@
+package kr.ac.sku.dice;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.ClassPathResource;
+
+public class PlayerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		BeanFactory factory = new XmlBeanFactory(new ClassPathResource("applicationContext.xml"));
+		
+		//ApplicationContext factory = new ClassPathXmlApplicationContext("applicationContext.xml");
+		System.out.println("컨테이너 생성 완료");	// BeanFactory는 사용시 컨테이너를 생성
+											// ApplicationContext는 미리 컨테이너를 생성해놓음.
+		Player p = (Player)factory.getBean("Player");
+		int count = 10;
+		p.play(count);
+		System.out.println(count+" 번 던진 주사위 눈의 합 : "+p.getTotalValue());
+		
+		
+	}
+
+}

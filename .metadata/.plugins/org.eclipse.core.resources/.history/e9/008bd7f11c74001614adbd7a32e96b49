@@ -1,0 +1,223 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<jsp:include page="header_index.jsp" />
+<jsp:include page="nav.jsp" />
+<jsp:include page="menu_mypage.jsp" />
+ 
+ 
+ <div class="content-wrapper">
+            <div class="container">
+            
+            <div class="row">
+				<div class="col-md-12">
+					<h1 class="page-head-line">My page</h1>
+				</div>
+			</div>
+			
+			
+			 <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Profile
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <!-- <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr> -->
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Name :</td>
+                                            <td>Mark</td>
+                                            <td> </td>
+                                            <td> </td>
+                                        </tr>
+                                        <tr>
+                                            <td>phone : </td>
+                                            <td>010-9824-0223</td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>email</td>
+                                            <td>912@naver.com</td>
+                                            <td></td>
+                                            <td></td> 
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="panel-footer">
+                            <a href="#" class="btn btn-default"><i class=" fa fa-refresh "></i> Update</a>
+                            <a href="#" class="btn btn-default"><i class=" fa fa-refresh "></i> password update</a>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            	Team Info
+                        </div>
+                         <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <!-- <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr> -->
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Teamname :</td>
+                                            <td>A</td>
+                                            <td> </td>
+                                            <td>  <a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Teamname : </td>
+                                            <td>B</td>
+                                            <td></td>
+                                            <td><a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Teamname</td>
+                                            <td>AA</td>
+                                            <td></td>
+                                            <td><a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="panel-footer">
+                        </div>
+                    </div>
+                </div>
+                </div>
+               <!--  <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            message
+                        </div>
+                        
+                        <div class="panel-footer">
+                            Panel Footer
+                        </div>
+                    </div>
+                </div> -->
+                <div class="row">
+                 <div class="col-md-6 col-sm-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            message
+                        </div>
+                        <div class="panel-body">
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <!-- <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr> -->
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Teamname :</td>
+                                            <td>A</td>
+                                            <td> </td>
+                                            <td>  <a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Teamname : </td>
+                                            <td>B</td>
+                                            <td></td>
+                                            <td><a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Teamname</td>
+                                            <td>AA</td>
+                                            <td></td>
+                                            <td><a href="#" class="btn btn-danger btn-sm"><i class=" fa fa-refresh "></i>DEL</a></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="panel-footer">
+                             <!-- <a href="#" class="btn btn-default"><i class=" fa fa-refresh "></i> password update</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- <div class="row">
+                <div class="col-md-10 col-sm-10">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Basic Tabs
+                        </div>
+                        <div class="panel-body">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#team" data-toggle="tab">Home</a>
+                                </li>
+                                <li class=""><a href="#profile" data-toggle="tab">Profile</a>
+                                </li>
+                                <li class=""><a href="#messages" data-toggle="tab">Messages</a>
+                                </li>
+                                <li class=""><a href="#settings" data-toggle="tab">Settings</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade active in" id="team">
+                                    <h4>Home Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="profile">
+                                    <h4>Profile Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="messages">
+                                    <h4>Messages Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                                <div class="tab-pane fade" id="settings">
+                                    <h4>Settings Tab</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div> -->
+            
+            
+        </div><!-- container end -->
+    </div><!-- content-wrapper  -->
+
+
+
+<jsp:include page="footer.jsp" />

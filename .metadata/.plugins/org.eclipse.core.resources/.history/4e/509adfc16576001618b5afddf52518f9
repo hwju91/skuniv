@@ -1,0 +1,16 @@
+package winder.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class CommunityController {
+	
+	@RequestMapping(value="communitylist")
+	public String communitylist(Model model,HttpSession session){
+		return "community/communityselect";
+	}
+}

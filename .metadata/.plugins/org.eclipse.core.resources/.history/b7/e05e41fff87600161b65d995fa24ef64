@@ -1,0 +1,7 @@
+package winder.vo;
+
+public class BoradVO {
+
+	int bno;
+	String btitle,bcontent,bstate,bdate,id;
+}

@@ -1,0 +1,166 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header_basic.jsp" />
+<jsp:include page="nav.jsp" />
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="page-head-line">team</h4>
+
+    <a href="teamcreate">+create team</a>
+    
+
+    <!-- 헤더 밑 시작 -->
+    <!-- MENU SECTION END-->
+    <div class="col-md-6">
+                     <!--    Context Classes  -->
+                    <div class="panel panel-default">
+                       
+                        <div class="panel-heading">
+                            teamnameA
+                        </div>
+                        
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="success">
+                                            <td>1</td>
+                                            <td>Ju</td>
+                                            <td>ju</td>
+                                            <td>ju</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                     <!-- End  Kitchen Sink -->
+                </div>
+                
+            <div class="col-md-6">
+                     <!--    Context Classes  -->
+                    <div class="panel panel-default">
+                       <a href="teamInfo">
+                        <div class="panel-heading">
+                            teamnameB
+                        </div>
+                        
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="success">
+                                            <td>1</td>
+                                            <td>Ju</td>
+                                            <td>ju</td>
+                                            <td>ju</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <!--  End  Striped Rows Table  -->
+                </div>
+                
+              
+                    <!-- End  Hover Rows  -->
+                </div>
+                <div class="col-md-6">
+                     <!--    Context Classes  -->
+                    <div class="panel panel-default">
+                       
+                        <div class="panel-heading">
+                            teamnameC
+                        </div>
+                        
+                        <div class="panel-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="success">
+                                            <td>1</td>
+                                            <td>Ju</td>
+                                            <td>ju</td>
+                                            <td>ju</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                            <td>ju2</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                            <td>ju3</td>
+                                        </tr>
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  end  Context Classes  -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+</div>
+
+<jsp:include page="footer.jsp" />

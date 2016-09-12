@@ -1,0 +1,24 @@
+1470011807251	Delete element
+1470011810734	Delete element
+1470015036213	Delete element
+1470015078590	Rename package 'sku.DBUtil'
+1470016285355	Move 'memberlist.jsp' to 'jsp'
+1470033936957	Rename resource 'Minions-cartoon-movie-three-small-yellow-people_2560x1600.jpg'
+1470034443492	Rename resource 'img'
+1470103030641	Delete element
+1470103034035	Delete element
+1470104794805	Rename resource 'memberMapper.xml'
+1470118821415	Rename type 'MemberDAOimpl'
+1470119817855	Move file
+1470119822464	Move file
+1470119829157	Move file
+1470119839809	Move file
+1470120814550	Delete element
+1470124504043	Delete element
+1470273094700	Rename resource 'MemberMapper.xml'
+1470274678296	Rename type 'MemberServiceImpl'
+1470282669651	Rename package 'sku.vo'
+1470282877200	Rename field 'regDate'
+1470295023890	Move 'updateForm.jsp' to 'jsp'
+1470398354338	Delete element
+1470400173182	Rename field 'regDate'

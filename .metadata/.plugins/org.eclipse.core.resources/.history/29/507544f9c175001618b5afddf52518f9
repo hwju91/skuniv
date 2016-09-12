@@ -1,0 +1,5 @@
+package winder.vo;
+
+public class CommunityVO {
+
+}

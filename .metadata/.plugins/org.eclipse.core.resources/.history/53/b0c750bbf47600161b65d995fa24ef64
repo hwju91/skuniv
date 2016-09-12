@@ -1,0 +1,9 @@
+package winder.dao;
+
+import java.util.List;
+
+import winder.vo.CommunityVO;
+
+public interface CommunityDAO {
+	public List<CommunityVO> selectAllCommunity();
+}

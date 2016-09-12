@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="winder.Members">
+
+	<insert id="insertMembers" parameterType="Members">
+		insert into members(mno, state, id, tno) values
+		(members_seq.nextval,#{state},#{id},#{tno})
+	</insert>
+
+	<delete id="deleteMembers" parameterType="java.lang.String">
+		delete members where mno=#{value}
+	</delete>
+
+	<update id="updateMembers" parameterType="Members">
+		update members set
+		state= #{state}, id=#{id}, tno=#{tno} where	mno=#{mno}
+	</update>
+	
+	<select id="selectMembers" parameterType="java.lang.String"	resultType="Members">
+		select state,id,tno from members where mno =#{value}
+	</select>
+
+	<select id="selectAllMembersTno" parameterType="java.lang.String" resultType="Members">
+		select * from members where id=#{value}
+	</select>
+	
+	<select id="selectAllMembers" parameterType="java.lang.String" resultType="Members">
+		select * from members
+	</select>
+	
+	<!-- 추가 -->
+	<select id="selectMembersTno" parameterType="java.lang.String"	resultType="Members">
+		select * from members where id=#{id}
+	</select>
+	<select id="selectAllMembersTno" parameterType="java.lang.Integer"	resultType="Members">
+		select * from members where tno=#{value}
+	</select>
+	
+	<select id="selectMembersPosition" parameterType="Members" resultType="Members">
+		select *from members where id=#{id} and tno=#{tno}
+	</select>
+	
+	
+	
+</mapper>

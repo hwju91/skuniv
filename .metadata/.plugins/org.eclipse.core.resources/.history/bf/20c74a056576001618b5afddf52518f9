@@ -1,0 +1,15 @@
+package winder.dao;
+
+import java.util.List;
+
+import winder.vo.CommunityVO;
+
+public class CommunityDAOImpl implements CommunityDAO{
+
+	@Override
+	public List<CommunityVO> selectAllCommunity() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

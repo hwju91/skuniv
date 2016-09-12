@@ -1,0 +1,5 @@
+package winder.service;
+
+public interface CommunityService {
+
+}

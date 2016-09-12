@@ -1,0 +1,30 @@
+1468995871975	Delete element
+1468995917143	Delete element
+1468996026967	Copy package
+1468996031063	Delete element
+1468996063340	Copy package
+1468996067195	Delete element
+1468996069795	Delete element
+1468997368566	Delete element
+1468997375072	Rename resource 'member.jsp'
+1468999724188	Rename method 'setReg_date'
+1468999733898	Rename method 'getReg_date'
+1469001188807	Rename field 'g_id'
+1469001198444	Rename field 'g_password'
+1469001208514	Rename field 'g_reg_date'
+1469001224650	Rename method 'getG_number'
+1469001243454	Rename method 'getGnumber'
+1469001262332	Rename method 'setG_number'
+1469001294693	Rename method 'getG_id'
+1469001304012	Rename method 'setG_id'
+1469001318448	Rename method 'getG_password'
+1469001330811	Rename method 'setG_password'
+1469001348672	Rename method 'getG_reg_date'
+1469001359684	Rename method 'setG_reg_date'
+1469065832470	Rename local variable 'accountno'
+1469112532636	Rename method 'getGuestbookList'
+1469113081362	Rename method 'insertMember'
+1469117992880	Move 'guestbookDel.jsp' to 'WebContent'
+1469119520500	Rename method 'delAccount'
+1469122007190	Move 'guestbookUpdate.jsp' to 'WebContent'
+1469122385287	Rename method 'updateMember'

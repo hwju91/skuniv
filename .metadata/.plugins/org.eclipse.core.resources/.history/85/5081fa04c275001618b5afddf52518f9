@@ -1,0 +1,7 @@
+package winder.vo;
+
+public class CommunityVO {
+	int cno;
+	String id,title,content,state,cdate;
+	
+}

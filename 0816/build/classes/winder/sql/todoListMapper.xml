@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="winder.TodoList">
+
+	<insert id="insertTodoList" parameterType="TodoList">
+		insert into todolist(tlno, content, state, tldate, tdno, id) values
+		(todolist_seq.nextval, #{content}, #{state}, sysdate,#{tdno}, #{id})
+	</insert>
+
+	<delete id="deleteTodoList" parameterType="java.lang.String">
+		delete todolist where tlno=#{value}
+	</delete>
+
+	<update id="updateTodoList" parameterType="TodoList">
+		update todolist set
+		content= #{content}, state=#{state},tdno=#{tdno}, id=#{id} where tlno=#{tlno}
+	</update>
+	
+	<select id="selectTodoList" parameterType="java.lang.String"	resultType="TodoList">
+		select content,state,tldate,tdno from todolist where tlno =#{value}
+	</select>
+
+	<select id="selectAllTodoList" parameterType="java.lang.String" resultType="TodoList">
+		select * from todolist
+	</select>
+
+</mapper>
